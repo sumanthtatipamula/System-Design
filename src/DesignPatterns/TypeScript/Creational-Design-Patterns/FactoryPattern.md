@@ -3,6 +3,7 @@ title: Factory Pattern
 tag:
   - Design Patterns
   - Creational
+  - Typescript
 ---
 
 ## Factory Method Pattern

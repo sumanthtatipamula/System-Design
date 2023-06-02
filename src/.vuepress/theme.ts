@@ -40,6 +40,7 @@ export default hopeTheme({
 
 	plugins: {
 		// You should generate and use your own comment service
+		blog: true,
 		comment: {
 			provider: 'Giscus',
 			repo: 'sumanthtatipamula/System-Design',
