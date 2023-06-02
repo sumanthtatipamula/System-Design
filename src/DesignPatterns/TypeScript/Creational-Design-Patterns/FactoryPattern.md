@@ -1,6 +1,6 @@
 ---
 title: Factory Pattern
-tags:
+tag:
   - Design Patterns
   - Creational
 ---

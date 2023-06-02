@@ -1,6 +1,6 @@
 ---
 title: Introduction
-tags:
+tag:
   - Design Patterns
   - Intro
 ---
