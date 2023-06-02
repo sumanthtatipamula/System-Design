@@ -2,6 +2,20 @@ import { navbar } from 'vuepress-theme-hope';
 
 export default navbar([
 	'/',
+	{
+		text: 'Design Patterns',
+		children: [
+			{
+				text: 'Java',
+				children: [
+					{
+						text: 'FactoryPattern',
+						link: '/DesignPatterns/Java/FactoryPattern.md',
+					},
+				],
+			},
+		],
+	},
 	// '/demo/',
 	{
 		text: 'Design Principles',

@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress';
 import { searchProPlugin } from 'vuepress-plugin-search-pro';
 import theme from './theme.js';
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 
 export default defineUserConfig({
 	base: '/',
@@ -11,6 +12,9 @@ export default defineUserConfig({
 	theme,
 
 	plugins: [
+		googleAnalyticsPlugin({
+			id: 'G-GGLN70YJGL',
+		}),
 		searchProPlugin({
 			// index all contents
 			indexContent: true,
