@@ -1,30 +1,43 @@
-import { navbar } from "vuepress-theme-hope";
+import { navbar } from 'vuepress-theme-hope';
 
 export default navbar([
-  "/",
-  "/demo/",
-  {
-    text: "Guide",
-    icon: "lightbulb",
-    prefix: "/guide/",
-    children: [
-      {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
-      },
-      {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
-      },
-    ],
-  },
-  {
-    text: "V2 Docs",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/",
-  },
+	'/',
+	// '/demo/',
+	{
+		text: 'Design Principles',
+		icon: 'pencil-ruler',
+		children: [
+			{
+				text: 'SOLID',
+				icon: 'cubes',
+				children: [
+					{
+						icon: 'user',
+						text: 'SRP',
+						link: '/DesignPrinciples/SOLID/single-responsibility.md',
+					},
+					{
+						icon: 'lock',
+						text: 'OCP',
+						link: '/DesignPrinciples/SOLID/open-closed.md',
+					},
+					{
+						icon: 'object-group',
+						text: 'LSP',
+						link: '/DesignPrinciples/SOLID/liskovs-substitution.md',
+					},
+					{
+						icon: 'columns',
+						text: 'ISP',
+						link: '/DesignPrinciples/SOLID/interface-segregation.md',
+					},
+					{
+						icon: 'exchange-alt',
+						text: 'DI',
+						link: '/DesignPrinciples/SOLID/dependency-inversion.md',
+					},
+				],
+			},
+		],
+	},
 ]);
