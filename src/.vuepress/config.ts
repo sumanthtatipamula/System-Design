@@ -11,6 +11,17 @@ export default defineUserConfig({
 
 	theme,
 
+	head: [
+		[
+			'script',
+			{
+				'data-ad-client': 'ca-pub-9275900718110992',
+				async: true,
+				src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+			},
+		],
+	],
+
 	plugins: [
 		googleAnalyticsPlugin({
 			id: 'G-GGLN70YJGL',
