@@ -3,14 +3,47 @@ import { navbar } from 'vuepress-theme-hope';
 export default navbar([
 	'/',
 	{
-		text: 'Design Patterns',
+		text: 'Relationships',
+		icon: 'handshake',
+		link: '/relationships.md',
+	},
+	{
+		text: 'Creational Patterns',
+		icon: 'cogs',
+		link: '/Creational',
 		children: [
 			{
 				text: 'Java',
 				children: [
 					{
-						text: 'FactoryPattern',
-						link: '/DesignPatterns/Java/FactoryPattern.md',
+						text: 'Factory Pattern',
+						icon: 'industry',
+						link: '/Creational/Java/FactoryPattern.md',
+					},
+					{
+						text: 'Prototype Pattern',
+						icon: 'clone',
+						link: '/Creational/Java/PrototypePattern.md',
+					},
+				],
+			},
+			{
+				text: 'Typescript',
+				children: [
+					{
+						text: 'Factory Pattern',
+						icon: 'industry',
+						link: '/Creational/Typescript/FactoryPattern.md',
+					},
+					{
+						text: 'Builder Pattern',
+						icon: 'toolbox',
+						link: '/Creational/Typescript/BuilderPattern.md',
+					},
+					{
+						text: 'Prototype Pattern',
+						icon: 'clone',
+						link: '/Creational/Typescript/PrototypePattern.md',
 					},
 				],
 			},

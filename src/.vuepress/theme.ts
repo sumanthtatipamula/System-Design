@@ -3,6 +3,7 @@ import navbar from './navbar.js';
 import sidebar from './sidebar.js';
 
 export default hopeTheme({
+	fullscreen: true,
 	hostname: 'https://system-design-lac.vercel.app/',
 
 	author: {
@@ -66,6 +67,7 @@ export default hopeTheme({
 			katex: true,
 			mark: true,
 			mermaid: true,
+			container: true,
 			playground: {
 				presets: ['ts', 'vue'],
 			},
