@@ -93,6 +93,20 @@ export default hopeTheme({
 			vPre: true,
 			vuePlayground: true,
 		},
+		components: {
+			// components you want
+			components: [
+				'AudioPlayer',
+				'Badge',
+				'BiliBili',
+				'CodePen',
+				'PDF',
+				'Replit',
+				'StackBlitz',
+				'VideoPlayer',
+				'YouTube',
+			],
+		},
 
 		// uncomment these if you want a pwa
 		// pwa: {

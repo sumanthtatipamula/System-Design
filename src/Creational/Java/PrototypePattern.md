@@ -82,3 +82,5 @@ flowchart LR
   id2((X2)) --> id4((Y1))
   id4((Y1)) --> id5((Z1))
 ```
+
+<Replit user="samsandy111999" repl="PrototypePattern-1" file="Main.java"/>
