@@ -8,6 +8,43 @@ export default navbar([
 		link: '/relationships.md',
 	},
 	{
+		text: 'Behavioral Patterns',
+		link: '/BehavioralPatterns',
+		icon: 'network-wired',
+		children: [
+			{
+				text: 'Java',
+				children: [
+					{
+						text: 'Strategy Pattern',
+						link: '/BehavioralPatterns/Java/StrategyPattern.md',
+						icon: 'chess',
+					},
+					{
+						text: 'Chain Of Responsibility',
+						link: '/BehavioralPatterns/Java/ChainOfResponsibility.md',
+						icon: 'link',
+					},
+				],
+			},
+			{
+				text: 'TypeScript',
+				children: [
+					{
+						text: 'Strategy Pattern',
+						link: '/BehavioralPatterns/TypeScript/StrategyPattern.md',
+						icon: 'chess',
+					},
+					{
+						text: 'Chain Of Responsibility',
+						link: '/BehavioralPatterns/TypeScript/ChainOfResponsibility.md',
+						icon: 'link',
+					},
+				],
+			},
+		],
+	},
+	{
 		text: 'Creational Patterns',
 		icon: 'cogs',
 		link: '/Creational',

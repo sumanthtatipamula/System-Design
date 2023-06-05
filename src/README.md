@@ -28,6 +28,11 @@ highlights:
         details: Talks about various ways of creating an object
         link: './Creational'
 
+      - title: Behavioral Design Patterns
+        icon: cogs
+        details: Talks about various ways of creating an object
+        link: './BehavioralPatterns'
+
       - title: Relationships
         icon: handshake
         details: Talks about various kinds of relationships that exists between classes.
