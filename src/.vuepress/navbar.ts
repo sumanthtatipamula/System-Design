@@ -25,6 +25,16 @@ export default navbar([
 						link: '/BehavioralPatterns/Java/ChainOfResponsibility.md',
 						icon: 'link',
 					},
+					{
+						text: 'Command',
+						link: '/BehavioralPatterns/Java/CommandPattern.md',
+						icon: 'hand-pointer',
+					},
+					{
+						text: 'Observer',
+						link: '/BehavioralPatterns/Java/Observer.md',
+						icon: 'binoculars',
+					},
 				],
 			},
 			{
