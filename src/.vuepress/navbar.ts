@@ -35,6 +35,16 @@ export default navbar([
 						link: '/BehavioralPatterns/Java/Observer.md',
 						icon: 'binoculars',
 					},
+					{
+						text: 'Iterator',
+						link: '/BehavioralPatterns/Java/Iterator.md',
+						icon: 'forward',
+					},
+					{
+						text: 'TemplateMethod',
+						link: '/BehavioralPatterns/Java/TemplateMethod.md',
+						icon: 'file-alt',
+					},
 				],
 			},
 			{

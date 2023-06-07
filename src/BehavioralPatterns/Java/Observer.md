@@ -147,3 +147,12 @@ classDiagram
 ```
 
 <Replit user="sumanthtatipamula" repl="observer" file="Main.java"/>
+
+## Difference between Command and Observer
+
+|             | Command Pattern                                                                                                                                                                           | Observer Pattern                                                                                                                                                        |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Purpose     | Encapsulates a request or operation as an object. Supports parameterization, queuing or logging of requests, and undoable operations.                                                     | Establishes a one-to-many dependency between objects. Notifies and updates observers when changes occur in the subject.                                                 |
+| Structure   | Consists of invoker, command, and receiver. Invoker holds and executes command objects. Command encapsulates receiver's action. Receiver performs the actual operation.                   | Comprises subject and observer. Subject maintains a list of observers and notifies them when its state changes.                                                         |
+| Interaction | Invoker decides when and how to execute commands. Command objects encapsulate specific actions or requests. Requester remains decoupled from the receiver.                                | Observers register themselves with the subject. Subject broadcasts notifications to all observers when changes occur.                                                   |
+| Use Cases   | Useful for decoupling and encapsulating requests, parameterizing clients with different requests, storing requests in a queue, logging commands, or implementing undo/redo functionality. | Suitable for establishing dependencies between objects, automatic updates and notifications. Commonly used in event handling, GUI frameworks, and reactive programming. |
