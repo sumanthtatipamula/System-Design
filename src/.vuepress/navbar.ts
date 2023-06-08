@@ -45,6 +45,16 @@ export default navbar([
 						link: '/BehavioralPatterns/Java/TemplateMethod.md',
 						icon: 'file-alt',
 					},
+					{
+						text: 'Mediator',
+						link: '/BehavioralPatterns/Java/Mediator.md',
+						icon: 'users',
+					},
+					{
+						text: 'State Pattern',
+						link: '/BehavioralPatterns/Java/StatePattern.md',
+						icon: 'exchange-alt',
+					},
 				],
 			},
 			{
