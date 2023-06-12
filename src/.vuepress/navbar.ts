@@ -8,6 +8,27 @@ export default navbar([
 		link: '/relationships.md',
 	},
 	{
+		text: 'Structural Patterns',
+		link: '/StructuralPatterns',
+		children: [
+			{
+				text: 'Java',
+				children: [
+					{
+						text: 'Composite Pattern',
+						link: '/StructuralPatterns/Java/CompositePattern.md',
+						icon: 'sitemap',
+					},
+					{
+						text: 'Decorator Pattern',
+						link: '/StructuralPatterns/Java/DecoratorPattern.md',
+						icon: 'paint-roller',
+					},
+				],
+			},
+		],
+	},
+	{
 		text: 'Behavioral Patterns',
 		link: '/BehavioralPatterns',
 		icon: 'network-wired',
@@ -54,6 +75,16 @@ export default navbar([
 						text: 'State Pattern',
 						link: '/BehavioralPatterns/Java/StatePattern.md',
 						icon: 'exchange-alt',
+					},
+					{
+						text: 'Memento Pattern',
+						link: '/BehavioralPatterns/Java/MementoPattern.md',
+						icon: 'undo-alt',
+					},
+					{
+						text: 'Visitor Pattern',
+						link: '/BehavioralPatterns/Java/VisitorPattern.md',
+						icon: 'user-check',
 					},
 				],
 			},
