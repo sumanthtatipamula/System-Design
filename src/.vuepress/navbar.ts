@@ -10,6 +10,7 @@ export default navbar([
 	{
 		text: 'Structural Patterns',
 		link: '/StructuralPatterns',
+		icon: 'layer-group',
 		children: [
 			{
 				text: 'Java',

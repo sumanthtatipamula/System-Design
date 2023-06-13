@@ -16,6 +16,7 @@ export default sidebar({
 		{
 			text: 'Structural Patterns',
 			link: '/StructuralPatterns',
+			icon: 'layer-group',
 			children: [
 				{
 					text: 'Java',
